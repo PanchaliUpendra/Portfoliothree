@@ -1,0 +1,271 @@
+.part1_container{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+.part1_container_div1{
+    height:90vh;
+    width:120vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url('../../Images/first2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: start;
+}
+.part1_container_div1 h1{
+    color: white;
+    padding:5%;
+    padding-top: 15%;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 70px;
+/* or 109% */
+
+letter-spacing: -0.5px;
+
+}
+.part1_container_div1 p{
+    color: white;
+    padding:5%;
+    font-family: 'Manrope';
+font-style: normal;
+padding-top: 5%;
+}
+.part1_container_div2_img{
+    width: 100vh;
+    height: 90vh;
+}
+.part1_container_div1_btn{
+    display: inline-block;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.36);
+    backdrop-filter: blur(30px);
+    border-radius: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+@media(max-width:1213px){
+    .part1_container_div2_img{
+        width: 70vh;
+        height: 90vh;
+    }
+    .part1_container_div1{
+        width:130vh;
+        height:90vh;
+    }
+    .part1_container_div1 h1{
+        color: white;
+        padding:5%;
+        padding-top: 5%;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    /* or 109% */
+    
+    letter-spacing: -0.5px;
+    }
+    .part1_container_div1 p{
+        color: white;
+        padding:5%;
+        font-family: 'Manrope';
+    font-style: normal;
+    } 
+    .part1_container_div1_btn{
+        display: inline-block;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.36);
+        backdrop-filter: blur(30px);
+        border-radius: 4px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        margin-top: 5%;
+    
+    }
+    
+}
+@media(max-width:901px){
+    .part1_container_div1{
+        height:90vh;
+        width:140vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url('../../Images/first2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: start;
+    }
+    .part1_container_div2_img{
+        width: 60vh;
+        height: 90vh;
+    }
+    .part1_container_div1 h1{
+        color: white;
+        padding:5%;
+        padding-top: 10%;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 60px;
+    /* or 109% */
+    
+    letter-spacing: -0.5px;
+    
+    }
+}
+@media(max-width:696px){
+    .part1_container_div1{
+        height:90vh;
+        width:150vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url('../../Images/first2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: start;
+    }
+    .part1_container_div2_img{
+        width: 40vh;
+        height: 90vh;
+    }
+    .part1_container_div1 h1{
+        color: white;
+        padding:5%;
+        padding-top: 4%;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 70px;
+    /* or 109% */
+    
+    letter-spacing: -0.1px;
+    
+    }
+}
+
+@media(max-width:597px){
+    
+    .part1_container_div1{
+        height:60vh;
+        width:500px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url('../../Images/first2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: start;
+    }
+    .part1_container_div1 h1{
+        color: white;
+        padding:2%;
+        padding-top: 5%;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 70px;
+    /* or 109% */
+    
+    letter-spacing: -0.9px;
+    
+    }
+    .part1_container_div1 p{
+        color: white;
+        padding:2%;
+        font-family: 'Manrope';
+    font-style: normal;
+    padding-top: 2%;
+    }
+    .part1_container_div2_img{
+        width: 100%;
+        height: 60vh;
+    }
+    .part1_container_div1_btn{
+        display: inline-block;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.36);
+        backdrop-filter: blur(30px);
+        border-radius: 4px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        margin-left: 2%;
+        margin-top: 2%;
+    
+    }
+}
+
+@media(max-width:467px){
+    .part1_container{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        
+        align-items: center;
+        text-align: center;
+    }
+    .part1_container_div1{
+        height:60vh;
+        width:500px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url('../../Images/first2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: start;
+        padding:5%;
+    }
+    .part1_container_div1 h1{
+        color: white;
+        padding:2%;
+        padding-top: 2%;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 70px;
+    /* or 109% */
+    
+    letter-spacing: -0.5px;
+    
+    }
+    .part1_container_div1 p{
+        color: white;
+        padding:2%;
+        font-family: 'Manrope';
+    font-style: normal;
+    padding-top: 2%;
+    }
+    .part1_container_div2_img{
+        width: 100%;
+        height: 60vh;
+    }
+    .part1_container_div1_btn{
+        display: inline-block;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.36);
+        backdrop-filter: blur(30px);
+        border-radius: 4px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        margin-left: 2%;
+        margin-top: 2%;
+    
+    }
+}
